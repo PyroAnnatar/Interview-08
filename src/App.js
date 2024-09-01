@@ -70,7 +70,7 @@ const ValidatedForm = () => {
       <input
         className="border-[1px] border-black pl-1 rounded-md"
         value={password}
-        type="text"
+        type="password"
         onChange={(e) => setPassword(e.target.value)}
         style={{ marginBottom: 10 }}
         placeholder="Password"
